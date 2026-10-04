@@ -1,16 +1,10 @@
-<div align="center">
-
 ⚡ Nexlat
+
 Global Cloud Routing Intelligence
 Finde die Cloud-Region mit der besten Verbindung für deinen Standort.
-Nexlat misst TCP-Latenzen zu verifizierten Cloud-Endpunkten weltweit und macht die Ergebnisse auf einer interaktiven Karte vergleichbar.
+Nexlat misst TCP-Latenzen zu verifizierten Cloud-Endpunkten weltweit und macht die Ergebnisse auf einer interaktiven Karte vergleichbar
  
- 
- 
- 
- 
-🚀 nexlat.itzenton.de
-</div>
+🚀 **nexlat.itzenton.de**
 
 ✨ Was ist Nexlat?
 Nexlat ist ein leichtgewichtiges Flask-Dashboard für Cloud-Region-Entscheidungen. Statt nur Standorte aufzulisten, misst Nexlat die reale TCP-Verbindung vom laufenden Server zu regionalen Cloud-Endpunkten auf Port 443.
