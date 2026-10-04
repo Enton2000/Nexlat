@@ -1,32 +1,32 @@
-⚡ Nexlat
+**⚡ Nexlat**
+
+
 Global Cloud Routing Intelligence
-Finde die Cloud-Region mit der besten Verbindung für deinen Standort.
-Nexlat misst TCP-Latenzen zu verifizierten Cloud-Endpunkten weltweit und macht die Ergebnisse auf einer interaktiven Karte vergleichbar.
+Find the cloud region with the best connection for your location.
+Nexlat measures TCP latency to verified cloud endpoints worldwide and makes the results easy to compare on an interactive map.
 
 🌐 Live
 🚀 Website: nexlat.itzenton.de
-📚 API-Dokumentation: nexlat.itzenton.de/api
+📚 API Documentation: nexlat.itzenton.de/api
 
-✨ Was ist Nexlat?
-Nexlat ist ein leichtgewichtiges Flask-Dashboard für Cloud-Region-Entscheidungen.
-Statt nur Standorte aufzulisten, misst Nexlat die reale TCP-Verbindung vom laufenden Server zu regionalen Cloud-Endpunkten auf Port 443. Dadurch kannst du schnell vergleichen, welche Region für deinen aktuellen Netzwerkpfad besonders interessant ist.
-
+✨ What is Nexlat?
+Nexlat is a lightweight Flask dashboard for cloud region decisions.
+Instead of only listing locations, Nexlat measures the real TCP connection from the running server to regional cloud endpoints on port 443. This helps you quickly compare which region is most suitable for your current network path.
 
 Highlights
-- 🌍 Interaktive Weltkarte mit Cloud-Regionen rund um den Globus
-- ⚡ Live-Latenztests zu verifizierten regionalen TCP-Endpunkten
-- 🏆 Ranking nach gemessener Latenz
-- 🔎 Suche & Provider-Filter für Regionen, Anbieter und Standorte
-- 📊 Detailansicht mit Latenz, Durchschnitt, Status und Messwerten
-- 🗃️ Persistente Test-History mit SQLite
-- 🔌 REST API v1 inklusive OpenAPI-Schema
-- 📡 Server-Sent Events für Live-Testresultate
-- 🇩🇪 🇬🇧 Deutsch & Englisch direkt in der Oberfläche
-- 🔐 Whitelisted Testziele statt beliebiger externer Hosts
-194 verifizierte regionale Endpunkte von 11 Anbietern.
+- 🌍 Interactive world map with cloud regions around the globe
+- ⚡ Live latency tests to verified regional TCP endpoints
+- 🏆 Ranking by measured latency
+- 🔎 Search & provider filters for regions, providers, and locations
+- 📊 Detailed view with latency, average, status, and measurements
+- 🗃️ Persistent test history with SQLite
+- 🔌 REST API v1 including an OpenAPI schema
+- 📡 Server-Sent Events for live test results
+- 🇩🇪 🇬🇧 German & English directly in the interface
+- 🔐 Whitelisted test targets instead of arbitrary external hosts
+194 verified regional endpoints from 11 providers.
 
-
-🧠 Wie funktioniert die Messung?
-Nexlat führt einen TCP-Handshake zu fest definierten, regional zugeordneten Cloud-Endpunkten aus.
-Gemessen wird damit der Netzwerkpfad von dem Rechner beziehungsweise Server, auf dem die Flask-App läuft.
-Wichtig: Das ist kein klassischer ICMP-Ping. DNS, Routing und der Standort des Nexlat-Servers beeinflussen das Ergebnis. Die Messung garantiert deshalb nicht die spätere Latenz innerhalb eines authentifizierten Cloud-Workloads.
+🧠 How does the measurement work?
+Nexlat performs a TCP handshake, region-specific cloud endpoints.
+This measures the network path from the computer or server running the Flask application.
+Important: This is not a traditional ICMP ping. DNS, routing, and the location of the Nexlat server can affect the result. The measurement therefore does not guarantee the final latency inside an authenticated cloud workload.
